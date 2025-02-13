@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page1">
+            <div class="mobile-signs">
+                <p>4:51</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16" fill="#FFFFFF"><path d="M240-192v-240h96v240h-96Zm192 0v-384h96v384h-96Zm192 0v-576h96v576h-96Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16" fill="#FFFFFF"><path d="M480.23-144Q440-144 412-171.77q-28-27.78-28-68Q384-280 411.77-308q27.78-28 68-28Q520-336 548-308.23q28 27.78 28 68Q576-200 548.23-172q-27.78 28-68 28ZM238-386l-68-68q62-57 140.57-89.5 78.58-32.5 169.5-32.5 90.93 0 169.43 32.5T790-454l-68 68q-48-44-109.82-69-61.83-25-132.18-25-70.35 0-132.18 25Q286-430 238-386ZM68-555 0-624q94-90 217-141t263-51q140 0 263 51t217 141l-68 69q-81-77-186.32-121T480-720q-120.36 0-225.68 44Q149-632 68-555Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-battery-half" viewBox="0 0 16 16">
+                    <path d="M2 6h5v4H2z"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+                  </svg>
+                </p>
+            </div>
+            <div class="item1">
+                <a href=""><p>Your Library <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></p></a>
+                <img src="./images/headphone.jpg" alt="earpods" width="360px" height="640px">  
+                <button>Discover</button> 
+            </div> 
+        </div>
+        <div class="page2">
+            <div class="item2">
+                <div class="mobile-signs">
+                <p>4:51</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16" fill="#FFFFFF"><path d="M240-192v-240h96v240h-96Zm192 0v-384h96v384h-96Zm192 0v-576h96v576h-96Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16" fill="#FFFFFF"><path d="M480.23-144Q440-144 412-171.77q-28-27.78-28-68Q384-280 411.77-308q27.78-28 68-28Q520-336 548-308.23q28 27.78 28 68Q576-200 548.23-172q-27.78 28-68 28ZM238-386l-68-68q62-57 140.57-89.5 78.58-32.5 169.5-32.5 90.93 0 169.43 32.5T790-454l-68 68q-48-44-109.82-69-61.83-25-132.18-25-70.35 0-132.18 25Q286-430 238-386ZM68-555 0-624q94-90 217-141t263-51q140 0 263 51t217 141l-68 69q-81-77-186.32-121T480-720q-120.36 0-225.68 44Q149-632 68-555Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-battery-half" viewBox="0 0 16 16">
+                    <path d="M2 6h5v4H2z"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+                  </svg>
+                </p>
+            </div>
+                <input type="text" name="search" placeholder="search songs">
+                <svg id="search-svg" xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#999"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                <p>Your Top Mix</p>
+                <div class="topmix">
+                    <img src="./images/black-pink.jpeg" alt="">
+                    <img src="./images/songs.jpeg" alt="">
+                </div>
+                <div class="songs-list">
+                    <div class="song">
+                        <img src="./images/black-eyed-piece.jpeg" alt="black-eyed-piece">
+                        <div class="artist">
+                            <a href=""><p id="song-name">I Gotta Feeling</p></a>
+                            <a href=""><p>Black Eyed Peas</p></a>
+                        </div>
+                        <div class="album">
+                            <svg id="heart" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+                        </div> 
+                    </div>
+                </div>
+                <div class="songs-list">
+                    <div class="song">
+                        <img src="./images/marnik.jpeg" alt="marnik">
+                        <div class="artist">
+                            <a href=""><p id="song-name">Boys in Paris</p></a>
+                            <a href=""><p>Marnik, Naeleck, VINAI</p></a>
+                        </div>
+                        <div class="album">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+                        </div> 
+                    </div>
+                </div>
+                <div class="songs-list">
+                    <div class="song">
+                        <img src="./images/miley.jpeg" alt="miley">
+                        <div class="artist">
+                            <a href=""><p id="song-name">Flowers</p></a>
+                            <a href=""><p>Miley Cyrus</p></a>
+                        </div>
+                        <div class="album">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+                        </div> 
+                    </div>
+                </div>
+                <div class="songs-list">
+                    <div class="song">
+                        <img src="./images/david-guetta.jpeg" alt="david-guetta">
+                        <div class="artist">
+                            <a href=""><p id="song-name">I'm Good (Blue)</p></a>
+                            <a href=""><p>David Guetta, Bebe Rexha</p></a>
+                        </div>
+                        <div class="album">
+                            <svg id="heart" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="green"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>                      
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page3">
+
+        </div>
+    </div>
+</body>
+</html>

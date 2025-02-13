@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 640px;
+    border: 1px solid black;
+    background-color: rgb(15, 6, 6);
+}
+
+.mobile-signs {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 0 1.5em 0 1.5em;
+    margin: 0;
+    border-radius: 50%;
+    height: 20px;
+    width: 90%;
+}
+
+.mobile-signs p {
+    color: white;
+    font-size: 12px;
+}
+
+.page2 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 360px;
+    height: 640px;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+
+.item2 .mobile-signs {
+    position: absolute;
+    top: -5%;
+}
+
+.page3 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 640px;
+    border: 1px solid black;
+}
+
+.container > * {
+    border-radius: 2em;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2em;
+    overflow: hidden;
+    position: relative;
+}
+
+.item1 p {
+    color: white;
+    letter-spacing: .1em;
+    position: absolute;
+    left: 8%;
+    cursor: pointer;
+}
+
+.item1 svg {
+    position: absolute;
+    cursor: pointer;
+    fill: white;
+    top: 4%;
+}
+
+.item1 button {
+    position: absolute;
+    top: 87%;
+    padding: 1em 2em 1em 2em;
+    border-radius: 1em;
+    border: none;
+    letter-spacing: .1em;
+    background: linear-gradient(to right, rgba(255, 254, 254, 0.8), rgba(255, 255, 255, 1), rgba(244, 242, 242, 0.3));
+    transition: all 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+.item1 button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+    height: 90%;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+
+
+.item2 input {
+    padding: 1em;
+    letter-spacing: .1em;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(40, 36, 40);
+    border-radius: 1em;
+    border-style: none;
+    
+}
+
+.item2 > input, p {
+    color: #999;
+}
+
+#search-svg {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    cursor: pointer;
+    
+}
+
+.topmix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    gap: 1em;
+}
+
+.item2 p {
+    font-size: 12px;
+    letter-spacing: .1em;
+}
+
+.topmix img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1em;
+}
+
+.songs-list {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.songs-list img, .song {
+    border-radius: 1em;
+}
+
+.songs-list svg {
+    padding-right: 1em;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(40, 36, 40);
+    position: relative;
+}
+
+#song-name {
+    color: white;
+    font-size: 15px;
+
+}
+
+.artist {
+    position: absolute;
+    left: 25%;
+    line-height: .5;
+    
+}
+
+.artist a {
+    text-decoration: none;
+}
+
+.artist a:hover {
+    text-decoration: underline black;
+    
+}
+
+.album {
+    cursor: pointer;
+    fill: red;
+}
+
