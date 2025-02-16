@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 90%;
+    background-color: rgb(213, 211, 214);
+    border-radius: 2em;
+    box-shadow: 2px 2px 10px 4px rgba(25, 25, 26, 0.6);
+}
+
+.icons {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 80%;
+    
+}
+
+.share-icon button {
+    padding: 2em;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.share-icon svg {
+    position: absolute;
+    top: 30%;
+    left: 29%;
+
+}
