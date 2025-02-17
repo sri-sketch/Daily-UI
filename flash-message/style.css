@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    gap: 1em;
+}
+
+.left-section, .right-section {
+    display: flex;
+    width: 360px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2em;
+    background-color: #f1eaea;
+    box-shadow: 5px 5px 50px 5px gray;
+}
+
+.empty-div {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 1em;
+}
+
+svg {
+    position: absolute;
+    top: 22%;
+    left: 21%;
+}
+
+#text {
+    line-height: 1px;
+}
+
+.left-section > .empty-div, #fail{
+    background: linear-gradient(#ff0000, #b40000, #890000, #540000, #240000);
+    color: white;
+}
+
+.right-section > .empty-div, #success {
+    background: linear-gradient(#008000, #38b000, #70e000, #9ef01a, #ccff33);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2, button {
+    letter-spacing: .1em;
+    margin-bottom: 0;
+    border: none;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button {
+    padding: 1em 1.5em;
+    border-radius: 1.5em;
+    font-weight: bold;
+    border-color: rgb(193, 150, 234);
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+#success {
+    font-size: 16px;
+}
